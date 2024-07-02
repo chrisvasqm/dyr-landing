@@ -16,6 +16,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  padding: 1rem;
+}
+
 h1,
 h2,
 h3 {
