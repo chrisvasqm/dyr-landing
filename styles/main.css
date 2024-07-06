@@ -2,6 +2,7 @@
   --color-primary: #2f3e97;
   --color-secondary: #d4cfcf;
   --color-accent: #ffc643;
+  --color-accent-lighter: #f0bb3f;
   --color-complementary: #d52121;
 }
 
@@ -151,6 +152,34 @@ a {
   font-weight: bold;
 }
 
+/* Button */
+
+.button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.button-action {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 5rem;
+}
+
+.button-accent {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.button-accent:hover {
+  background-color: var(--color-accent-lighter);
+}
+
+.button-circle {
+  border-radius: 100%;
+}
+
 /* Icon Buttons */
 
 .icon-button {
@@ -169,10 +198,6 @@ a {
 
 .icon-button:hover {
   background-color: var(--color-secondary);
-}
-
-.button-circle {
-  border-radius: 100%;
 }
 
 /* List */
