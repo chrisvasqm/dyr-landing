@@ -332,8 +332,26 @@ a {
 /* Divider */
 
 .divider {
-  height: 4px;
+  height: 2px;
   margin: 2rem auto;
   background-color: white;
-  width: 80%;
+  width: 90%;
+}
+
+/* Copyright */
+
+.copyright {
+  background-color: var(--color-complementary);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
 }
