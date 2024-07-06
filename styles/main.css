@@ -5,6 +5,7 @@
   --color-accent: #ffc643;
   --color-accent-lighter: #f0bb3f;
   --color-complementary: #d52121;
+  --color-complementary-darker: #7a0d0d;
 }
 
 *,
@@ -29,6 +30,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
 }
 
 h1,
@@ -106,9 +111,17 @@ p {
   gap: 10px;
 }
 
+.no-gap {
+  gap: 0;
+}
+
 @media screen and (min-width: 768px) {
   .grid-col-2 {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-col-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -221,6 +234,7 @@ a {
 
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 .list-inline {
@@ -286,4 +300,31 @@ a {
 .card-body {
   display: flex;
   justify-content: center;
+}
+
+/* Footer */
+
+.footer-index {
+  background-color: var(--color-complementary);
+  color: white;
+}
+
+.footer-index a {
+  color: var(--color-secondary);
+  transition: color 0.3s;
+}
+
+.footer-index a:hover {
+  color: white;
+}
+
+.footer-index .list-item {
+  margin-bottom: 0.5rem;
+}
+
+.footer-index-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--color-complementary-darker);
 }
