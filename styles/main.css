@@ -21,6 +21,10 @@
   width: 100px;
 }
 
+.box-tall {
+  height: 200px;
+}
+
 /* Typography */
 
 html {
@@ -222,4 +226,64 @@ a {
 .list-inline {
   display: flex;
   gap: 1rem;
+}
+
+/* Card */
+
+.card {
+  padding: 2rem 1rem 0 1rem;
+  border-radius: 1rem;
+  min-width: 280px;
+  margin: 1rem 0;
+}
+
+.card-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+
+.card-complementary {
+  background-color: var(--color-complementary);
+}
+
+.card-secondary {
+  background-color: var(--color-secondary-darker);
+}
+
+.card-dark {
+  background-color: black;
+}
+
+.card-header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.card-title-small {
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.card-subtitle-small {
+  font-size: 2rem;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
 }
