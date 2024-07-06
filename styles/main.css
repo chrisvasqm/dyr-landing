@@ -149,3 +149,38 @@ a {
   border-bottom: 4px solid yellow;
   font-weight: bold;
 }
+
+/* Icon Buttons */
+
+.icon-button {
+  align-items: center;
+  background-color: white;
+  border: none;
+  box-shadow: 0 3px 2px 1px #b5b5b5;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  transition: background-color 0.3s;
+  width: 40px;
+  outline-color: var(--color-accent);
+}
+
+.icon-button:hover {
+  background-color: var(--color-secondary);
+}
+
+.button-circle {
+  border-radius: 100%;
+}
+
+/* List */
+
+.list {
+  list-style: none;
+}
+
+.list-inline {
+  display: flex;
+  gap: 1rem;
+}
