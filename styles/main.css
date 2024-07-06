@@ -12,6 +12,14 @@
   box-sizing: border-box;
 }
 
+/* Placeholder */
+
+.box {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+}
+
 /* Typography */
 
 html {
