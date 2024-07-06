@@ -83,6 +83,14 @@ p {
   color: var(--color-complementary);
 }
 
+.text-thin {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
 /* Container */
 
 .container {
