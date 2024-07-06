@@ -56,6 +56,24 @@ p {
   }
 }
 
+/* Headings */
+
+.heading-primary {
+  color: var(--color-primary);
+}
+
+.heading-secondary {
+  color: var(--color-secondary);
+}
+
+.heading-accent {
+  color: var(--color-accent);
+}
+
+.heading-complementary {
+  color: var(--color-complementary);
+}
+
 /* Container */
 
 .container {
