@@ -56,21 +56,21 @@ p {
   }
 }
 
-/* Colors */
+/* Text */
 
-.color-primary {
+.text-primary {
   color: var(--color-primary);
 }
 
-.color-secondary {
+.text-secondary {
   color: var(--color-secondary);
 }
 
-.color-accent {
+.text-accent {
   color: var(--color-accent);
 }
 
-.color-complementary {
+.text-complementary {
   color: var(--color-complementary);
 }
 
