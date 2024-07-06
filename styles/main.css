@@ -56,21 +56,21 @@ p {
   }
 }
 
-/* Headings */
+/* Colors */
 
-.heading-primary {
+.color-primary {
   color: var(--color-primary);
 }
 
-.heading-secondary {
+.color-secondary {
   color: var(--color-secondary);
 }
 
-.heading-accent {
+.color-accent {
   color: var(--color-accent);
 }
 
-.heading-complementary {
+.color-complementary {
   color: var(--color-complementary);
 }
 
